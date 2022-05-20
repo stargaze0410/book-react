@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import AddContact from "./components/AddContact/AddContact";
 import ContactList from "./components/ContactList/ContactList";
 import EditContacts from "./components/EditContacts/EditContacts";
+import {ModalDialog} from "react-bootstrap";
 
 const App = () => {
   let [contacts, setContacts] = useState([]);
